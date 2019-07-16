@@ -54,8 +54,9 @@ where some things are disabled to save space as well.
 #define BACKLIGHT_PIN D5
 #define BACKLIGHT_LEVELS 6
 
-/* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION COL2ROW
+/* Bootmagic lite key */
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
